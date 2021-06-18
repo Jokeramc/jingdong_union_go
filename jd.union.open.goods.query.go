@@ -3,7 +3,6 @@ package jingdong_union_go
 import (
 	"encoding/json"
 	"errors"
-	"log"
 
 	"github.com/shopspring/decimal"
 )
@@ -203,7 +202,6 @@ func (app *App) JdUnionOpenGoodsQuery(params map[string]interface{}) (result *Jd
 	body, err := app.Request("jd.union.open.goods.query", map[string]interface{}{"goodsReqDTO": params})
 	resp := &JdUnionOpenGoodsQueryResponseTopLevel{}
 	if err != nil {
-		log.Println(string(body))
 		return
 	}
 
