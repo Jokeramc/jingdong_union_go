@@ -1,5 +1,5 @@
-module github.com/irebit/jingdong_union_go
+module github.com/Jokeramc/jingdong_union_go
 
-go 1.16
+go 1.15
 
 require github.com/shopspring/decimal v1.2.0
