@@ -54,7 +54,7 @@ type Goods struct {
 	DeliveryType           int64                `json:"deliveryType"`           //京东配送 1：是，0：不是
 	SkuLabelInfo           SkuLabelInfo         `json:"skuLabelInfo"`           //商品标签
 	PromotionLabelInfoList []PromotionLabelInfo `json:"promotionLabelInfoList"` //商品促销标签集
-	SecondPriceInfoList    []SecondPriceInfo    `json:"secondPriceInfoList"`    //双价格
+	//SecondPriceInfoList    []SecondPriceInfo    `json:"secondPriceInfoList"`    //双价格
 	// IsJdSale               int64                  `json:"isJdSale"`
 	// PingGouInfo            PingGouInfo            `json:"pingGouInfo"`
 }
